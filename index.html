@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>文字数カウンター</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="box">文字数カウンター</div>
+    <div class="textarea-container">
+      <label for="myTextarea">コメントを入力してください (最大100文字):</label>
+      <textarea
+        id="myTextarea"
+        rows="6"
+        maxlength="100"
+        placeholder="ここにテキストを入力..."
+      ></textarea>
+      <p>現在の文字数: <span id="charCount">0</span> / 100</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
