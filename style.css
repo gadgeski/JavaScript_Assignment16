@@ -6,14 +6,8 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  background-color: #e6e6fa;
+  background-color: #778899;
   color: #333;
-}
-
-h1 {
-  color: #e67e22;
-  margin-bottom: 40px;
-  font-weight: 300;
 }
 
 .textarea-container {
